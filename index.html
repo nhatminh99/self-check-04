@@ -87,6 +87,12 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
 
+        <!-- Animation -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+
         <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
@@ -140,14 +146,14 @@
             </div>
         </div>
 
-        <main style="height: 8000px">
+        <main>
             <!-- Hero -->
             <section class="hero">
                 <div class="container">
                     <div class="hero__inner">
                         <!-- Hero media -->
                         <div class="hero__media">
-                            <figure class="hero-img">
+                            <figure class="hero-img" data-aos="fade-right">
                                 <img
                                     src="./assets/img/hero-img.png"
                                     alt=""
@@ -163,7 +169,7 @@
                         </div>
 
                         <!-- Hero content -->
-                        <section class="hero__content">
+                        <section class="hero__content" data-aos="fade-left">
                             <h1 class="hero__content-heading">
                                 An Interactive Designer
                             </h1>
@@ -222,6 +228,7 @@
                                     src="./assets/icon/clients-1.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-up"
                                 />
                             </a>
 
@@ -231,6 +238,7 @@
                                     src="./assets/icon/clients-2.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-up"
                                 />
                             </a>
 
@@ -240,6 +248,7 @@
                                     src="./assets/icon/clients-3.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-up"
                                 />
                             </a>
 
@@ -249,6 +258,7 @@
                                     src="./assets/icon/clients-4.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-up"
                                 />
                             </a>
 
@@ -258,6 +268,7 @@
                                     src="./assets/icon/clients-5.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-down"
                                 />
                             </a>
 
@@ -267,6 +278,7 @@
                                     src="./assets/icon/clients-6.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-down"
                                 />
                             </a>
 
@@ -276,6 +288,7 @@
                                     src="./assets/icon/clients-7.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-down"
                                 />
                             </a>
 
@@ -285,6 +298,7 @@
                                     src="./assets/icon/clients-8.svg"
                                     alt=""
                                     class="clients-social__item-logo"
+                                    data-aos="flip-down"
                                 />
                             </a>
                         </div>
@@ -295,7 +309,7 @@
             <!-- Special -->
             <section class="special">
                 <div class="container">
-                    <section class="special-top">
+                    <section class="special-top" data-aos="zoom-in">
                         <h2 class="section-heading">Specialities</h2>
                         <p class="section-desc special-top__desc">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -307,7 +321,7 @@
                     <div class="special-item">
                         <div class="row">
                             <!-- Special item 1 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="fade-up-right">
                                 <div class="special-list">
                                     <a href="#!" class="special-item__img">
                                         <img
@@ -327,7 +341,7 @@
                             </div>
 
                             <!-- Special item 2 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="fade-up">
                                 <div class="special-list">
                                     <a href="#!" class="special-item__img">
                                         <img
@@ -347,7 +361,7 @@
                             </div>
 
                             <!-- Special item 3 -->
-                            <div class="col-lg-4">
+                            <div class="col-lg-4" data-aos="fade-up-left">
                                 <div class="special-list">
                                     <a href="#!" class="special-item__img">
                                         <img
@@ -373,7 +387,7 @@
             <!-- Project -->
             <section class="project">
                 <div class="container">
-                    <div class="project-top">
+                    <div class="project-top" data-aos="fade-down">
                         <h2 class="section-heading project-top__heading">
                             Take a look at my recent projects
                         </h2>
@@ -387,7 +401,7 @@
                     <div class="project-item">
                         <div class="row">
                             <!-- Project item 1 -->
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" data-aos="fade-down-right">
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -419,7 +433,7 @@
                             </div>
 
                             <!-- Project item 2 -->
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" data-aos="fade-down-left">
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -451,7 +465,7 @@
                             </div>
 
                             <!-- Project item 3 -->
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" data-aos="fade-up-right">
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -483,7 +497,7 @@
                             </div>
 
                             <!-- Project item 4 -->
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" data-aos="fade-up-left">
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -516,7 +530,7 @@
                         </div>
                     </div>
 
-                    <div class="project-cta">
+                    <div class="project-cta" data-aos="flip-left">
                         <a href="#!" class="btn project-btn">All Projects</a>
                     </div>
                 </div>
@@ -582,6 +596,301 @@
                     </div>
                 </div>
             </section>
+
+            <!-- People -->
+            <section class="people">
+                <div class="container">
+                    <div class="people-inner">
+                        <h2 class="section-heading">What people says</h2>
+                        <p class="section-desc people-inner__desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <blockquote class="people-inner__quote">
+                            “Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa.”
+                        </blockquote>
+                        <div class="people-inner__author">
+                            <img
+                                src="./assets/icon/people-author.svg"
+                                alt=""
+                                class="people-inner__author-img"
+                            />
+                            <p class="people-inner__author-name">Joe Elia</p>
+                        </div>
+                        <p class="people-inner__author-info">
+                            User Interface Design at PCL Lab
+                        </p>
+                    </div>
+                    <div class="people-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot dot-active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+
+                    <div class="people-decor">
+                        <img
+                            src="./assets/icon/people-decor-01.svg"
+                            alt=""
+                            class="people-decor__img-left"
+                        />
+                        <img
+                            src="./assets/icon/people-decor-02.svg"
+                            alt=""
+                            class="people-decor__img-right"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Question -->
+            <div class="question">
+                <div class="container">
+                    <div class="question-inner">
+                        <h2 class="section-heading question-inner__heading">
+                            A few questions clients normally ask me
+                        </h2>
+                        <div class="question-list">
+                            <div class="question-item question-item__active">
+                                <div class="question-info">
+                                    <h3
+                                        class="question-item__heading question-item__heading-active"
+                                    >
+                                        What is your hourly rate?
+                                    </h3>
+                                    <p class="section-desc question-item__desc">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. In urna, non nisl
+                                        tincidunt ut elementum turpis.
+                                    </p>
+                                </div>
+                                <a href="#!" class="question-item__ticket">
+                                    <img
+                                        src="./assets/icon/question-tick-1.svg"
+                                        alt=""
+                                        class="question-item__img"
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="question-item">
+                                <div class="question-info">
+                                    <h3 class="question-item__heading">
+                                        What type of projects do you take on?
+                                    </h3>
+                                </div>
+                                <a href="#!" class="question-item__ticket">
+                                    <img
+                                        src="./assets/icon/question-tick-2.svg"
+                                        alt=""
+                                        class="question-item__img"
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="question-item">
+                                <div class="question-info">
+                                    <h3 class="question-item__heading">
+                                        How do you charge for projects ?
+                                    </h3>
+                                </div>
+                                <a href="#!" class="question-item__ticket">
+                                    <img
+                                        src="./assets/icon/question-tick-2.svg"
+                                        alt=""
+                                        class="question-item__img"
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="question-item">
+                                <div class="question-info">
+                                    <h3 class="question-item__heading">
+                                        What time-zone do you work in?
+                                    </h3>
+                                </div>
+                                <a href="#!" class="question-item__ticket">
+                                    <img
+                                        src="./assets/icon/question-tick-2.svg"
+                                        alt=""
+                                        class="question-item__img"
+                                    />
+                                </a>
+                            </div>
+
+                            <div class="question-item">
+                                <div class="question-info">
+                                    <h3 class="question-item__heading">
+                                        How often can we communicate?
+                                    </h3>
+                                </div>
+                                <a href="#!" class="question-item__ticket">
+                                    <img
+                                        src="./assets/icon/question-tick-2.svg"
+                                        alt=""
+                                        class="question-item__img"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Atmosphere -->
+            <div class="atmosphere">
+                <div class="container">
+                    <div class="atmosphere__inner">
+                        <h2 class="section-heading">My atmosphere</h2>
+                        <p class="section-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <p class="atmosphere__desc">@interaction_arif</p>
+                    </div>
+
+                    <div class="atmosphere-list">
+                        <div class="row">
+                            <!-- Item 1 -->
+                            <div class="col-lg-4" data-aos="fade-up-right">
+                                <img
+                                    src="./assets/img/atmosphere-img-01.jpg"
+                                    alt=""
+                                    class="atmosphere-list__img"
+                                />
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="col-lg-4" data-aos="fade-up">
+                                <img
+                                    src="./assets/img/atmosphere-img-02.jpg"
+                                    alt=""
+                                    class="atmosphere-list__img"
+                                />
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="col-lg-4" data-aos="fade-up-left">
+                                <img
+                                    src="./assets/img/atmosphere-img-03.jpg"
+                                    alt=""
+                                    class="atmosphere-list__img"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Talk -->
+            <section class="talk">
+                <div class="talk__inner">
+                    <div class="talk__info">
+                        <img src="./assets/img/talk-img.svg" alt="" />
+                        <h2 class="section-heading">
+                            Got a project? Let’s talk
+                        </h2>
+                        <p class="section-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <a href="#!" class="btn talk-cta">Book a Call</a>
+                    </div>
+
+                    <img
+                        src="./assets/icon/talk-decor-01.svg"
+                        alt=""
+                        class="talk-decor__img-left"
+                    />
+                    <img
+                        src="./assets/icon/talk-decor-02.svg"
+                        alt=""
+                        class="talk-decor__img-center"
+                    />
+                    <img
+                        src="./assets/icon/talk-decor-03.svg"
+                        alt=""
+                        class="talk-decor__img-right"
+                    />
+                </div>
+            </section>
         </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="header__inner">
+                    <!-- Logo -->
+                    <div class="mailto">
+                        <a
+                            href="mailto:hi@arif.interactive"
+                            class="mailto-icon"
+                        >
+                            <img src="./assets/icon/mail.svg" alt="" />
+                        </a>
+                        <a
+                            href="mailto:hi@arif.interactive"
+                            class="mailto-mail"
+                        >
+                            hi@arif.interactive
+                        </a>
+                    </div>
+
+                    <!-- Face -->
+                    <a href="#" class="logo">
+                        <img
+                            src="./assets/icon/miniface.svg"
+                            alt=""
+                            class="logo-img"
+                        />
+                    </a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li>
+                                <a href="#!" class="nav__link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Journey</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Service</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p class="copyright__desc">
+                    ©interactiveArif 2021. All rights reserved.
+                </p>
+                <div class="copyright-clause">
+                    <a href="#!" class="copyright-clause__privacy">
+                        Privacy Policy
+                    </a>
+                    <a href="#!" class="copyright-clause__terms">
+                        Terms of Conditions
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
