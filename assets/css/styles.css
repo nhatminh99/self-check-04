@@ -567,6 +567,14 @@ select {
 
     color: #51586a;
     background: #fff;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.designer-video:hover .designer-video__intro {
+    opacity: 0;
+    visibility: hidden;
 }
 
 /*=============================================== People ===============================================*/
@@ -844,6 +852,8 @@ select {
 
 .talk__info {
     width: 570px;
+
+    z-index: 2;
 }
 
 .talk-cta {
