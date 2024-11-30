@@ -15,6 +15,10 @@
         display: block;
     }
 
+    .row {
+        justify-content: center;
+    }
+
     .btn {
         min-width: 147px;
         height: 55px;
@@ -179,7 +183,7 @@
     .clients__inner {
         flex-direction: column;
 
-        max-width: 336px;
+        max-width: 100%;
     }
 
     .clients-heading {
@@ -197,14 +201,14 @@
 
     .clients-social {
         grid-template-columns: 150px 150px;
+        align-self: flex-start;
+        row-gap: 24px;
 
         margin-top: 42px;
-        justify-items: center;
-        align-self: flex-start;
     }
 
     .special-list {
-        width: 350px;
+        width: 100%;
     }
 
     .special-item__desc {
@@ -234,7 +238,7 @@
     .project-list {
         column-gap: 22px;
 
-        width: 350px;
+        width: 100%;
 
         padding: 20px 15px;
     }
@@ -265,7 +269,7 @@
     }
 
     .designer-item {
-        width: 350px;
+        width: 100%;
 
         margin: 50px auto;
     }
@@ -356,7 +360,7 @@
     }
 
     .atmosphere__inner {
-        width: 350px;
+        width: 100%;
     }
 
     .atmosphere__inner--desc {
@@ -368,7 +372,7 @@
     }
 
     .atmosphere-list__img {
-        width: 350px;
+        width: 100%;
         height: 503px;
     }
 
@@ -399,17 +403,22 @@
     }
 
     .mobile-footer__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         position: relative;
 
-        width: 350px;
+        width: 100%;
 
         text-align: center;
     }
 
     .footer-separate {
-        width: 390px;
+        width: 100%;
 
-        margin: 29px 0 0 -20px;
+        margin-top: 29px;
         border: 1px solid #0c072033;
     }
 
