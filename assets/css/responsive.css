@@ -1,0 +1,54 @@
+/*========================================= Desktop =========================================*/
+@media screen and (min-width: 992px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}
+
+/*========================================= Tablet & Mobile =========================================*/
+@media screen and (max-width: 991.98px) {
+    .show-on-mobile {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .mailto-mail {
+        display: none;
+    }
+
+    .menu-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.3);
+
+        z-index: 4;
+
+        opacity: 0;
+        visibility: hidden;
+
+        transition: 0.5s ease;
+    }
+
+    .menu-drawer {
+        position: fixed;
+        inset: 0 40% 0 0;
+        z-index: 4;
+        transform: translateX(-100%);
+
+        background: #fff;
+
+        transition: 0.5s ease;
+    }
+
+    .checkbox:checked ~ .menu-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .checkbox:checked ~ .menu-drawer {
+        transform: translateX(0);
+    }
+}
