@@ -178,6 +178,8 @@
 
     .clients__inner {
         flex-direction: column;
+
+        max-width: 336px;
     }
 
     .clients-heading {
@@ -194,9 +196,11 @@
     }
 
     .clients-social {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 150px 150px;
 
         margin-top: 42px;
+        justify-items: center;
+        align-self: flex-start;
     }
 
     .special-list {
