@@ -136,7 +136,6 @@
                         />
                     </svg>
                 </label>
-
                 <!-- Logo -->
                 <div class="mailto">
                     <a href="mailto:hi@arif.interactive" class="mailto-icon">
@@ -157,7 +156,7 @@
                 </a>
 
                 <!-- Navbar -->
-                <nav class="navbar">
+                <nav class="navbar hide-on-mobile">
                     <ul class="navbar__list">
                         <li>
                             <a href="#!" class="nav__link">Projects</a>
@@ -178,15 +177,35 @@
 
         <!-- Header Tablet & Mobile -->
         <div class="mobile-header">
-            <input
-                type="checkbox"
-                name=""
-                id="checkbox"
-                class="checkbox"
-                hidden
-            />
-            <label for="checkbox" class="menu-overlay"></label>
-            <div class="menu-drawer"></div>
+            <div class="container">
+                <input
+                    type="checkbox"
+                    name=""
+                    id="checkbox"
+                    class="checkbox"
+                    hidden
+                />
+                <label for="checkbox" class="menu-overlay"></label>
+                <div class="menu-drawer">
+                    <!-- Navbar -->
+                    <nav class="navbar hide-on-desktop show-on-mobile">
+                        <ul class="navbar__list">
+                            <li>
+                                <a href="#!" class="nav__link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Journey</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Service</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
 
         <main>
@@ -384,7 +403,10 @@
                             </div>
 
                             <!-- Special item 2 -->
-                            <div class="col-lg-4" data-aos="fade-up">
+                            <div
+                                class="col-lg-4 hide-on-mobile"
+                                data-aos="fade-up"
+                            >
                                 <div class="special-list">
                                     <a href="#!" class="special-item__img">
                                         <img
@@ -404,7 +426,10 @@
                             </div>
 
                             <!-- Special item 3 -->
-                            <div class="col-lg-4" data-aos="fade-up-left">
+                            <div
+                                class="col-lg-4 hide-on-mobile"
+                                data-aos="fade-up-left"
+                            >
                                 <div class="special-list">
                                     <a href="#!" class="special-item__img">
                                         <img
@@ -423,6 +448,12 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="people-dots hide-on-desktop">
+                        <div class="dot"></div>
+                        <div class="dot dot-active"></div>
+                        <div class="dot"></div>
                     </div>
                 </div>
             </section>
@@ -444,7 +475,10 @@
                     <div class="project-item">
                         <div class="row">
                             <!-- Project item 1 -->
-                            <div class="col-lg-6" data-aos="fade-down-right">
+                            <div
+                                class="col-lg-6 col-sm-12"
+                                data-aos="fade-down-right"
+                            >
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -476,7 +510,10 @@
                             </div>
 
                             <!-- Project item 2 -->
-                            <div class="col-lg-6" data-aos="fade-down-left">
+                            <div
+                                class="col-lg-6 col-sm-12"
+                                data-aos="fade-down-left"
+                            >
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -508,7 +545,10 @@
                             </div>
 
                             <!-- Project item 3 -->
-                            <div class="col-lg-6" data-aos="fade-up-right">
+                            <div
+                                class="col-lg-6 col-sm-12"
+                                data-aos="fade-up-right"
+                            >
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -540,7 +580,10 @@
                             </div>
 
                             <!-- Project item 4 -->
-                            <div class="col-lg-6" data-aos="fade-up-left">
+                            <div
+                                class="col-lg-6 col-sm-12"
+                                data-aos="fade-up-left"
+                            >
                                 <div class="project-list">
                                     <div class="project-list__content">
                                         <h3 class="project-content__heading">
@@ -676,7 +719,7 @@
                         <div class="dot"></div>
                     </div>
 
-                    <div class="people-decor">
+                    <div class="people-decor hide-on-mobile">
                         <img
                             src="./assets/icon/people-decor-01.svg"
                             alt=""
@@ -873,7 +916,7 @@
                 <div class="container">
                     <div class="atmosphere__inner">
                         <h2 class="section-heading">My atmosphere</h2>
-                        <p class="section-desc">
+                        <p class="section-desc atmosphere__inner--desc">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. In urna, non nisl tincidunt ut elementum
                             turpis.
@@ -897,7 +940,7 @@
                                 <img
                                     src="./assets/img/atmosphere-img-02.jpg"
                                     alt=""
-                                    class="atmosphere-list__img"
+                                    class="atmosphere-list__img hide-on-mobile"
                                 />
                             </div>
 
@@ -906,10 +949,18 @@
                                 <img
                                     src="./assets/img/atmosphere-img-03.jpg"
                                     alt=""
-                                    class="atmosphere-list__img"
+                                    class="atmosphere-list__img hide-on-mobile"
                                 />
                             </div>
                         </div>
+                    </div>
+
+                    <div class="people-dots hide-on-desktop">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot dot-active"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
                     </div>
                 </div>
             </div>
@@ -918,8 +969,12 @@
             <section class="talk">
                 <div class="talk__inner">
                     <div class="talk__info">
-                        <img src="./assets/img/talk-img.svg" alt="" />
-                        <h2 class="section-heading">
+                        <img
+                            src="./assets/img/talk-img.svg"
+                            alt=""
+                            class="talk__info-img"
+                        />
+                        <h2 class="section-heading talk__info-heading">
                             Got a project? Let’s talk
                         </h2>
                         <p class="section-desc">
@@ -933,7 +988,7 @@
                     <img
                         src="./assets/icon/talk-decor-01.svg"
                         alt=""
-                        class="talk-decor__img-left"
+                        class="talk-decor__img-left hide-on-mobile"
                     />
                     <img
                         src="./assets/icon/talk-decor-02.svg"
@@ -943,14 +998,14 @@
                     <img
                         src="./assets/icon/talk-decor-03.svg"
                         alt=""
-                        class="talk-decor__img-right"
+                        class="talk-decor__img-right hide-on-mobile"
                     />
                 </div>
             </section>
         </main>
 
-        <!-- Footer -->
-        <footer class="footer">
+        <!-- Footer Pc-->
+        <footer class="footer hide-on-mobile">
             <div class="footer__inner">
                 <div class="header__inner">
                     <!-- Logo -->
@@ -1011,6 +1066,72 @@
                         Terms of Conditions
                     </a>
                 </div>
+            </div>
+        </footer>
+
+        <!-- Footer Tablet & Mobile -->
+        <footer class="mobile-footer hide-on-desktop">
+            <div class="container">
+                <div class="mobile-footer__inner">
+                    <!-- Face -->
+                    <a href="#" class="logo">
+                        <img
+                            src="./assets/icon/miniface.svg"
+                            alt=""
+                            class="logo-img"
+                        />
+                    </a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li>
+                                <a href="#!" class="nav__link">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Journey</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Service</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Logo -->
+                    <div class="mailto">
+                        <a
+                            href="mailto:hi@arif.interactive"
+                            class="mailto-icon"
+                        >
+                            <img src="./assets/icon/mail.svg" alt="" />
+                        </a>
+                        <a
+                            href="mailto:hi@arif.interactive"
+                            class="mailto-mail"
+                        >
+                            hi@arif.interactive
+                        </a>
+                    </div>
+
+                    <div class="copyright-clause">
+                        <a href="#!" class="copyright-clause__privacy">
+                            Privacy Policy
+                        </a>
+                        <a href="#!" class="copyright-clause__terms">
+                            Terms of Conditions
+                        </a>
+                    </div>
+
+                    <div class="footer-separate"></div>
+                </div>
+
+                <div class="copyright">
+                    <p class="copyright__desc">
+                        ©interactiveArif 2021. All rights reserved.
+                    </p>
             </div>
         </footer>
 

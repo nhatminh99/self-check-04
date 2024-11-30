@@ -103,7 +103,7 @@ select {
 
 /*=============================================== Header ===============================================*/
 .header {
-    padding-top: 20px;
+    padding: 20px 0;
 
     background: #fbfaff;
 }
@@ -145,7 +145,7 @@ select {
 
 /*=============================================== Hero ===============================================*/
 .hero {
-    padding-top: 44px;
+    padding-top: 24px;
 
     background: #fbfaff;
 }
@@ -449,7 +449,7 @@ select {
 
 .project-list__img-decor {
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
 
     z-index: -1;
@@ -595,7 +595,7 @@ select {
 }
 
 .people-inner__quote {
-    width: 679px;
+    max-width: 679px;
 
     margin: 60px auto 0;
 
@@ -716,7 +716,7 @@ select {
 }
 
 .question-inner__heading {
-    width: 575px;
+    max-width: 575px;
 }
 
 .question-list {
@@ -845,7 +845,7 @@ select {
 .question-item__desc {
     display: none;
 
-    width: 487px;
+    max-width: 487px;
 
     padding-top: 23px;
 
@@ -886,7 +886,7 @@ select {
 }
 
 .atmosphere__inner {
-    width: 528px;
+    max-width: 528px;
 
     margin: 0 auto;
 
@@ -926,7 +926,7 @@ select {
 
     position: relative;
 
-    width: 1330px;
+    max-width: 1330px;
 
     padding: 68px 0;
     margin: 0 auto;
@@ -937,7 +937,7 @@ select {
 }
 
 .talk__info {
-    width: 570px;
+    max-width: 570px;
 
     z-index: 2;
 }

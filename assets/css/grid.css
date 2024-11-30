@@ -3,7 +3,7 @@
 .container,
 .container-fluid {
     --column-size: 12;
-    /* --spacer: ; */
+    --spacer: 40px;
 
     width: 100%;
 
