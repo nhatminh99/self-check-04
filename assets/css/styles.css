@@ -170,6 +170,9 @@ select {
     width: 100%;
 
     z-index: 1;
+
+    background-image: url(/assets/icon/hero-decor-1.svg);
+    background-position: 50% 50%;
 }
 
 .hero-decor__img--big,

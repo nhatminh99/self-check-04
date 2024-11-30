@@ -169,11 +169,6 @@
 
     .hero-decor__img--big {
         width: 100%;
-
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
     }
 
     .hero-social {
