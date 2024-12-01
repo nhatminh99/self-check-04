@@ -728,7 +728,7 @@ select {
 
 .question-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 
     margin-top: 60px;
@@ -818,8 +818,6 @@ select {
 }
 
 .question-item {
-    align-items: flex-end;
-
     transition: 0.3s ease;
 }
 
