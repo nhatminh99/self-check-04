@@ -140,6 +140,20 @@
         transform: translateX(0);
     }
 
+    .menu-drawer__cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 20px;
+    }
+
+    .menu-drawer__turnoff {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+    }
+
     .hero {
         padding-top: 50px;
     }

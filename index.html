@@ -86,13 +86,7 @@
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-
-        <!-- Animation -->
-        <link
-            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-            rel="stylesheet"
-        />
-
+        
         <!-- Reset Css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
@@ -176,7 +170,7 @@
         </div>
 
         <!-- Header Tablet & Mobile -->
-        <div class="mobile-header">
+        <div class="mobile-header hide-on-desktop">
             <div class="container">
                 <input
                     type="checkbox"
@@ -187,6 +181,17 @@
                 />
                 <label for="checkbox" class="menu-overlay"></label>
                 <div class="menu-drawer">
+                    <!-- Logo and CTA -->
+                     <div class="menu-drawer__cta">
+                        <a href="#" class="logo">
+                            <img
+                                src="./assets/icon/miniface.svg"
+                                alt=""
+                                class="logo-img"
+                            />
+                        </a>
+                        <label for="checkbox" class="menu-drawer__turnoff"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></label>
+                     </div>
                     <!-- Navbar -->
                     <nav class="navbar hide-on-desktop show-on-mobile">
                         <ul class="navbar__list">
@@ -1129,9 +1134,6 @@
             </div>
         </footer>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+        
     </body>
 </html>
