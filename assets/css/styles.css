@@ -163,7 +163,7 @@ select {
 .hero-img {
     width: 514px;
 
-    background-image: url(/assets/icon/hero-decor-1.svg);
+    background-image: url(../icon/hero-decor-1.svg);
     background-position: 50% 50%;
 }
 
@@ -757,7 +757,7 @@ select {
     + .question-item
     .question-item__ticket
     .question-item__img {
-    content: url(/assets/icon/question-tick-1.svg);
+    content: url(../icon/question-tick-1.svg);
 
     width: 14px;
     height: 14px;

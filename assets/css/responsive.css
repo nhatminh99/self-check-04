@@ -320,6 +320,8 @@
     }
 
     .question-item__ticket {
+        flex-shrink: 0;
+
         width: 33px;
         height: 33px;
     }
